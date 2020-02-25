@@ -1,10 +1,17 @@
-package q201312_1;
+package q2013_12.q1;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 public class Main{
+	
+	/**
+	 * 以数字本身作为key，以出现次数作为value，建立map
+	 * 遍历map找出value最大的条目中，最小的key
+	 *     使用两个整形变量来保存当前出现次数最大的数字和对应次数
+	 * @param args
+	 */
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int totalNum = input.nextInt();
