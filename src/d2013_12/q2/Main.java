@@ -1,4 +1,4 @@
-package q2013_12.q2;
+package d2013_12.q2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,6 +15,9 @@ public class Main{
     	new Main().run();
     }
     
+    /**
+     * ×Ö·û´®´¦Àí
+     */
     public void run() {
     	Scanner input = new Scanner(System.in);
     	String code = input.next();

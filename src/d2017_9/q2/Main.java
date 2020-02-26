@@ -1,4 +1,4 @@
-package q201709_2;
+package d2017_9.q2;
 
 import java.util.Scanner;
 
