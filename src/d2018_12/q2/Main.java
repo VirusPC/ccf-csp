@@ -2,6 +2,12 @@ package d2018_12.q2;
 
 import java.util.Scanner;
 
+/**
+ * 需要转换红绿灯的顺序和标识符
+ * timer需要用long类型来计数
+ * @author PengCheng
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {
