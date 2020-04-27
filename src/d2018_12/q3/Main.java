@@ -183,8 +183,8 @@ public class Main {
 		//input.close();
 		//Collections.sort(ipps, new MyComparator());
 		ipps.sort(new MyComparator());
-		ipps = unionFromSmallToBig(ipps);
-		ipps = unionSameRank(ipps);
+		//ipps = unionFromSmallToBig(ipps);
+		//ipps = unionSameRank(ipps);
 		for(Ipp ipp: ipps) {
 			System.out.println(ipp);
 		}
